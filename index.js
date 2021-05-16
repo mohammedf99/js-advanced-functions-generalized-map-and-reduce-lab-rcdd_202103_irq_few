@@ -7,8 +7,9 @@ const map = (arr, callbackFunction) => {
 }
 
 
-const reduce = (arr, callbackFunction, startingPoint) => {
+const reduce = (arr, callbackFunction, startingPoint = 0) => {
   
-  if (startingPoint !== undefined) return arr.reduce(callbackFunction)
+  if (startingPoint !== undefined) return arr.reduce(callbackFunction, startingPoint)
+  else return arr.reduce(callbackFunction);
   
 }
