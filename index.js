@@ -18,11 +18,11 @@ const map = (srcArr, callBackFunction) => {
   
 // }
 
-const reduce = (sourceArray, functions, startingPoint=0) => {
+const reduce = (srcArr, callBackFunction, startingPoint = 0) => {
   
-  if(startingPoint=="0") 
-    return sourceArray.reduce(functions);
+  if(startingPoint == "0") 
+    return srcArr.reduce(callBackFunction);
   else 
-    return sourceArray.reduce(functions, startingPoint);
+    return srcArr.reduce(callBackFunction, startingPoint);
     
 }
