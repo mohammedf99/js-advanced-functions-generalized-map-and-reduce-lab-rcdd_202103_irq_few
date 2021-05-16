@@ -10,9 +10,9 @@ const map = function (srcArr, callBackFunction) {
 function reduce(srcArr, callBackFunction, startingPoint = 0){
   
   if(startingPoint == "0")
-    return sourceArray.reduce(functions);
+    return srcArr.reduce(callBackFunction);
   else 
-    return sourceArray.reduce(functions, startingPoint);
+    return srcArr.reduce(functions, startingPoint);
   
 } 
 
