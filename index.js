@@ -7,8 +7,8 @@ const map = function (srcArr, callBackFunction) {
 }
 
 
-function reduce(arr, callBackFunction, startingPoint = 0){
-  if(startingPoint == "0") return arr.reduce(callBackFunction);
-  else return arr.reduce(callBackFunction, startingPoint);
+function reduce(sourceArray, functions, startingPoint=0){
+  if(startingPoint=="0") return sourceArray.reduce(functions);
+  else return sourceArray.reduce(functions, startingPoint);
 } 
 
