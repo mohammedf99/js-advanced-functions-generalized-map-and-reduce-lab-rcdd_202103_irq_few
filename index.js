@@ -9,6 +9,6 @@ const map = (arr, callbackFunction) => {
 
 const reduce = (arr, callbackFunction, startingPoint) => {
   
-  return arr.reduce(callbackFunction, startingPoint = 0);
+  if (startingPoint !== undefined) return arr.reduce(callbackFunction)
   
 }
