@@ -1,5 +1,7 @@
 // Add your functions here
 
-map(arr, function(index) {
-  return index * -1;
-})
+const map = (arr, callbackFunction) => {
+  
+  return arr.map(callbackFunction);
+  
+}
