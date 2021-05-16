@@ -14,7 +14,6 @@ const map = (srcArr, callBackFunction) => {
 
 const reduce = (srcArr, callBackFunction, startingPoint = 0) => {
   
-  if(startingPoint == 0) return srcArr.reduce(callBackFunction);
-  else return srcArr.reduce(callBackFunction, startingPoint);
+  return srcArr.reduce(callBackFunction, startingPoint);
   
 }
