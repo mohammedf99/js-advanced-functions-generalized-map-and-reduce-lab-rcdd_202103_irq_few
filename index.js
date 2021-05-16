@@ -1,8 +1,6 @@
 // Add your functions here
 
-const map = function (srcArr, callBackFunction) {
-  
-  return arr.map(callBackFunction);
+function map(arr, callBackFunction) {
   
 }
 
