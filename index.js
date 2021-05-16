@@ -1,6 +1,6 @@
 // Add your functions here
 
-const map = (srcArr, callBackFunction) => {
+const map = function (srcArr, callBackFunction) {
   
   return arr.map(callBackFunction);
   
@@ -18,7 +18,7 @@ const map = (srcArr, callBackFunction) => {
   
 // }
 
-const reduce = (srcArr, callBackFunction, startingPoint = 0) => {
+const reduce = function (srcArr, callBackFunction, startingPoint = 0) {
   
   if(startingPoint == "0") 
     return srcArr.reduce(callBackFunction);
