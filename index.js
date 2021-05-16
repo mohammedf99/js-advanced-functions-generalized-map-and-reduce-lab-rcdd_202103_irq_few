@@ -2,6 +2,8 @@
 
 function map(arr, callBackFunction) {
   
+  return arr.map(callBackFunction);
+  
 }
 
 
