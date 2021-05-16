@@ -12,7 +12,7 @@ function reduce(srcArr, callBackFunction, startingPoint = 0){
   if(startingPoint == "0")
     return srcArr.reduce(callBackFunction);
   else 
-    return srcArr.reduce(functions, startingPoint);
+    return srcArr.reduce(callBackFunction, startingPoint);
   
 } 
 
